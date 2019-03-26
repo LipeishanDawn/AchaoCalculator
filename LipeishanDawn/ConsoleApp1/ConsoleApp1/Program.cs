@@ -15,12 +15,12 @@ namespace ConsoleApp1
             int n = int.Parse(Console.ReadLine());
             for (int i = 0; i <= n; i++)
             {
-                int a = random.Next(2, 3);
+                int a = random.Next(2, 4);
                 switch (a)
                 {
                     case 2:
                         {
-                            string s = symbol[random.Next(0, 3)];
+                            string s = symbol[random.Next(0, 4)];
                             int t = random.Next(0, 100);
                             int g = random.Next(0, 100);
                             if (s == "/")
